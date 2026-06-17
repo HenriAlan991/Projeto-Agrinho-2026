@@ -1,1 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+body {
+    font-family: Arial, sans-serif;
+    background: #eef8ee;
+    color: #1f3d1f;
+}
+
+header {
+    background: linear-gradient(135deg, #2e7d32, #8bc34a);
+    color: white;
+    text-align: center;
+    padding: 35px 20px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+main {
+    width: 90%;
+    max-width: 900px;
+    margin: 30px auto;
+}
+
+.painel {
+    background: white;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 18px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+    text-align: center;
+}
+
+.painel h2 {
+    margin-bottom: 15px;
+    color: #2e7d32;
+}
+
+#pontos {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #f9a825;
+}
+
+button {
+    background: #43a047;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    margin: 10px;
+    border-radius: 12px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+button:hover {
+    background: #2e7d32;
+    transform: scale(1.05);
+}
+
+.barra-fundo {
+    width: 100%;
+    height: 25px;
+    background: #c8e6c9;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+#barra-progresso {
+    width: 0%;
+    height: 100%;
+    background: linear-gradient(90deg, #66bb6a, #fdd835);
+    transition: 0.4s;
+}
+
+.pergunta {
+    background: #f1f8e9;
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 15px;
+}
+
+.pergunta h3 {
+    margin-bottom: 10px;
+}
+
+footer {
+    background: #1b5e20;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    .painel {
+        padding: 18px;
+    }
+
+    button {
+        width: 100%;
+    }
+}
